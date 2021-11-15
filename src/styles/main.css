@@ -32,7 +32,7 @@ position: relative;
 .logo{
     width: 11.46vw;  
     height: 5.21vw;
-    background-image: url(/src/img/3.png);
+    background-image: url(../src/img/3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,21 +129,21 @@ top: 18.23vw;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .box.email{
-    background-image: url(/src/img/email.png);
+    background-image: url(../src/img/email.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
 }
 .box.instagram{
-    background-image: url(/src/img/instagram.png);
+    background-image: url(../src/img/instagram.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
 }
 .box.facebook{
-    background-image: url(/src/img/facebook12.png);
+    background-image: url(../src/img/facebook12.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
