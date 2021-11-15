@@ -1,0 +1,234 @@
+@import url(/src/styles/fonts.css);
+@import url(/src/styles/style.css);
+@import url(/src/styles/reset.css);
+body{
+    margin: 0px;
+    height: 100vh;
+}
+.container{
+    background-color: darkgray;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+height: auto;
+position: relative;
+}
+.Photo{
+    background-image: url('/src/img/1.jpg');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 52.5vw;
+position: relative;
+}
+.header{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: auto;
+
+}
+.logo{
+    width: 11.46vw;  
+    height: 5.21vw;
+    background-image: url(/src/img/3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 4vw;
+    top: 1.04vw;
+    position: absolute;
+    
+}
+.black{
+    background-color: #f3ced5;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+height: 15vw;
+
+
+}
+
+.menu{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 17px;
+    width: 40%;
+    margin-left: 50%;
+    margin-right: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ua{
+    width: 70px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ua:hover{
+    color: white;
+    background-color: black ;
+    border-radius: 5px;
+
+}
+.eu:hover{
+    color: white;
+    background-color: black ;
+    border-radius: 5px;
+
+}
+.text1{
+font-size:2.7vw; font-family:'Raleway-Bold';
+margin-left: 8%;
+display: flex;
+position: absolute;
+top: 18.23vw;
+}
+.text2{
+    font-size:5.2vw; font-family:'Raleway-Bold';
+    margin-left: 8%;
+    display: flex;
+    position: absolute;
+    top: 23.96vw;
+}
+.text3{
+    font-size:1.6vw; font-family:'Raleway-ExtraBold'; color: #909090;
+    margin-left: 8%;
+    display: flex;
+    position: absolute;
+    top: 30vw;
+}
+.message{
+    position: absolute;
+    margin-left: 8%;
+    top: 37.76vw;
+    width: 15vw;
+    height: 4vw;
+    display: flex;
+
+    justify-content: space-between;
+}
+.box:hover{
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+.box{
+    width: 4vw;
+    height: 3.7vw;
+
+    background: #f3ced5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box.email{
+    background-image: url(/src/img/email.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.box.instagram{
+    background-image: url(/src/img/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.box.facebook{
+    background-image: url(/src/img/facebook12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.eu{
+    width: 70px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.language{
+    width: 70px;  
+    height: 50px;
+
+    margin-right: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+border-radius: 30px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.buttona:hover{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black ;
+  border-radius: 30px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+ color: black;
+    background-color: white;
+}
+.buttonb:hover{
+    color: white;
+    background-color: black;
+  border-radius: 30px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+width: 70px;
+  height: 50px;
+}
+.buttona{
+    width: 100px;
+}
+.buttonb{
+    width: 70px;
+}
+.buttonc{
+    width: 100px;
+}
+.buttonc:hover{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+  display: flex;
+      justify-content: center;
+      align-items: center;
+}
