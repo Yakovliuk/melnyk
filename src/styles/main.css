@@ -14,7 +14,7 @@ height: auto;
 position: relative;
 }
 .Photo{
-    background-image: url('./src/img/1.jpg');
+    background-image: url(../img/1.jpg);
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% auto;
